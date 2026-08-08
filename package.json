@@ -1,0 +1,25 @@
+{
+  "name": "storybook-mcp-playground",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build"
+  },
+  "dependencies": {
+    "@vitejs/plugin-react": "latest",
+    "vite": "latest",
+    "typescript": "latest",
+    "react": "latest",
+    "react-dom": "latest"
+  },
+  "devDependencies": {
+    "@storybook/addon-docs": "latest",
+    "@storybook/addon-mcp": "latest",
+    "@storybook/react-vite": "latest",
+    "storybook": "latest"
+  }
+}
